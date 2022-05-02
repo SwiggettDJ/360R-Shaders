@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Layer_8E1CBF0B:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Layer_B42FDC64:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -63,6 +71,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,8 +96,13 @@ Material:
     - Cold_Spots: 0
     - Fluctuation_Speed: 0.1
     - Height: 0.5
+    - MaxThickness: 4
+    - Max_Thickness: 0.06
+    - Min_Thickness: 0.04
     - Outline_Thickness: 0.015
     - Speed: 0.3
+    - Thickness: 0.04
+    - Thickness_Speed: 2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -106,9 +127,11 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _ThicknessControl: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 7.4942307, b: 59.641586, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
