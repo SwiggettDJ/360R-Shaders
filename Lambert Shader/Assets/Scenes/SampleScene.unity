@@ -416,6 +416,10 @@ PrefabInstance:
       value: Arrow Glow
       objectReference: {fileID: 0}
     - target: {fileID: 3403190813811424257, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403190813811424257, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
@@ -505,6 +509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1214f06cd48f2f74896eee031716594f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayArrow: {fileID: 1428951904}
+  prefabArrow: {fileID: 643309814735703465, guid: 380d27ccef5ed394482073f29542cf14, type: 3}
 --- !u!4 &693669254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7639301787498063173, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
@@ -721,7 +727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053175530}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.53, y: 6.16, z: -3.54}
+  m_LocalPosition: {x: 8.21, y: 6.56, z: -0.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1183,6 +1189,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
       propertyPath: m_Name
       value: ArrowCore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403190813811424257, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3403190813811424257, guid: 04f45ee7d2d3c244185d8918c5fa7079, type: 3}
       propertyPath: m_Materials.Array.data[0]

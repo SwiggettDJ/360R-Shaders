@@ -18,7 +18,6 @@ public class GlowAnimation : MonoBehaviour
     void Update()
     {
         animTime = anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
-        print(animTime);
         if (mat.name == "Energy (Instance)" && animTime < 1)
         {
             mat.SetFloat("_ThicknessControl", animTime);
